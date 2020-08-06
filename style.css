@@ -38,6 +38,9 @@ nav {
 .logo a {
   text-decoration: none;
 }
+.logo a:visited {
+  color: rgb(235, 235, 235);
+}
 
 .nav-links {
   display: flex;
@@ -54,6 +57,10 @@ nav {
   color: rgb(235, 235, 235);
   letter-spacing: 2px;
   font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: white;
 }
 
 .burger {
@@ -211,6 +218,24 @@ img {
 .music > div {
   margin: 1em auto;
 }
+
+/* #music > img:hover {
+  transform: scale(1.2);
+} */
+
+#music .album {
+  overflow: hidden;
+}
+
+.album-img {
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+}
+
+.album-img:hover {
+  transform: scale(1.05);
+  opacity: 0.75;
+}
+
 footer {
   background: rgb(189, 128, 186);
   background: linear-gradient(
