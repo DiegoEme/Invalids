@@ -162,7 +162,7 @@ nav {
   }
   .main {
     background-size: cover;
-    padding: 17em 1em;
+    padding: 19em 1em;
   }
 }
 
@@ -198,6 +198,7 @@ img {
   }
   img {
     margin: auto;
+    width: 80%;
   }
 }
 
